@@ -12,7 +12,49 @@ export default function Home() {
       </Head>
 
       <main className={styles.main}>
-        <h1>Welcome to Stewpot</h1>
+
+        <div className={styles.topBar}>
+
+          <div className={styles.topBarLeft}>
+
+            <div className={styles.topBtn}>
+              <Image
+              src="/Donate.svg"
+              width={50}
+              height={50}  
+              alt="Image Not Supported"
+              /> 
+              <h3 style={{'font-size': '1.5rem'}}>DONATE</h3>
+            </div>
+
+          </div>
+
+          <div className={styles.topBarRight}> 
+
+            <div className={styles.topBtn}>
+              <h3 style={{'font-size': '1rem'}}>I NEED HELP</h3>
+              <Image
+              src="/I_need_help.svg"
+              width={50}
+              height={50}  
+              alt="Image Not Supported"
+              /> 
+            </div>
+
+            <div className={styles.topBtn} style={{'margin-left': '2rem'}}>
+              <h3 style={{'font-size': '1rem'}}>I WANT TO HELP</h3>
+              <Image
+              src="/I_want_to_help.svg"
+              width={50}
+              height={50}  
+              alt="Image Not Supported"
+              /> 
+            </div>
+
+          </div>
+
+        </div>  
+
       </main>
 
 
