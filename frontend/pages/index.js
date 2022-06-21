@@ -53,10 +53,9 @@ export default function Home() {
              <div className={styles.background1}></div>
              <Image
              src="frontend\public\iStock-1297602786.jpg"
-             width={75%}
+             width={100%}
              height={75%}
-             alt="image Not Supported"
-             />
+             alt="image Not Supported"/>
             </div>
 
           </div>
