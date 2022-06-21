@@ -48,7 +48,15 @@ export default function Home() {
               width={50}
               height={50}  
               alt="Image Not Supported"
-              /> 
+              />
+              
+             <div className={styles.background1}></div>
+             <Image
+             src="frontend\public\iStock-1297602786.jpg"
+             width={75%}
+             height={75%}
+             alt="image Not Supported"
+             />
             </div>
 
           </div>
