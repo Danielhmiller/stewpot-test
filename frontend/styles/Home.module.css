@@ -1,3 +1,9 @@
+
+@font-face {
+    font-family: "Lato-Black", sans-serif;
+    src: url("https://fonts.googleapis.com/css2?family=Lato:wght@900&display=swap");
+}
+
 .topBar {
     display: flex;
     justify-content: center;
@@ -26,3 +32,30 @@
     display: flex;
     flex-direction: row;
 }
+
+.background1 {
+    background-image: url('/iStock-1297602786.jpg');
+    width: 100%;
+    height: 60vh;
+    background-size: cover;
+    background-position: right 100% top 20%;
+}
+.btmbar {
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #;
+   }
+   .btmbarP {
+    display:flex;
+    flex-direction: row;
+    justify-content: right;
+    align-items:right;
+    text-align: right;
+       }
+       
+    .Mission {
+    text-align:left;
+    font-size: xx-large;
+       }
+
