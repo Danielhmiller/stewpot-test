@@ -59,26 +59,22 @@ export default function Home() {
 
         <div className={styles.background1}></div>
         <div className={styles.btmbar}>
-          <Image
+          <div className={styles.barLeft}>
+            <Image
               src="/Menu_POT.svg"
-              width={150}
+              width={200}
               height={150}  
-              alt="Image Not Supported"/>
-                
-        </div>
-        <div><h3 id='Mission' style={{"font-family": "Lato-Black"}}>MISSION</h3>
-        </div>
-        
-        <div id='btmbarP'>
-          <p>
-          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+              alt="Image Not Supported" />
+              <h3 className={styles.Mission} style={{'font-family': 'Lato-Black', 'font-size': '2.5rem', 'margin-left': '-2.8rem', 'line-height': '0rem'}}>MISSION</h3> 
+          </div> 
+          <p style={{'width': '75%', 'padding-right': '4rem'}}>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
           </p>
         </div>
-
-
+        <div>   
+        </div>
       </main>
-
-
     </div>
   )
   
