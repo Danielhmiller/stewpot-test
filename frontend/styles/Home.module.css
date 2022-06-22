@@ -9,6 +9,8 @@
     justify-content: center;
     align-items: center;
     text-align: center;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 
 .topBarLeft {
@@ -40,22 +42,21 @@
     background-size: cover;
     background-position: right 100% top 20%;
 }
+
 .btmbar {
     display: flex;
-    justify-content: left;
-    align-items: center;
-    background-color: #;
-   }
-   .btmbarP {
-    display:flex;
     flex-direction: row;
-    justify-content: right;
-    align-items:right;
-    text-align: right;
-       }
-       
-    .Mission {
-    text-align:left;
-    font-size: xx-large;
-       }
+    align-items: flex-start;
+    background-color: #6abf4b;
+    color: white;
+    padding-top: 2rem;
+}
 
+.barLeft {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 25%;
+}
