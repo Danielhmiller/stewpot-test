@@ -50,17 +50,31 @@ export default function Home() {
               alt="Image Not Supported"
               />
               
-             <div className={styles.background1}></div>
-             <Image
-             src="frontend\public\iStock-1297602786.jpg"
-             width={100%}
-             height={75%}
-             alt="image Not Supported"/>
+                          
             </div>
 
           </div>
 
         </div>  
+
+        <div className={styles.background1}></div>
+        <div className={styles.btmbar}>
+          <Image
+              src="/Menu_POT.svg"
+              width={150}
+              height={150}  
+              alt="Image Not Supported"/>
+                
+        </div>
+        <div><h3 id='Mission' style={{"font-family": "Lato-Black"}}>MISSION</h3>
+        </div>
+        
+        <div id='btmbarP'>
+          <p>
+          Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in
+          </p>
+        </div>
+
 
       </main>
 
