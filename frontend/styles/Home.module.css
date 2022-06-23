@@ -48,7 +48,7 @@
 
 .btmbar {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     align-items: flex-start;
     background-color: #6abf4b;
     color: white;
@@ -67,7 +67,12 @@
     display: flex;
     flex-direction:row;
     justify-content: center;
+    align-items: center;
+    text-align: center;
     word-spacing: 0rem;
+    color:#6abf4b;
+    width: 100%;
+    margin-top: -4rem;
 }
 .FS {
     display: flex;
@@ -83,7 +88,10 @@
     align-items: center;
     color:#6abf4b
 }
-
+.btmbar2 {
+    display:flex;
+    flex-direction:row;
+}
 
 
 
