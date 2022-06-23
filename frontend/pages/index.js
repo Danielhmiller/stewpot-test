@@ -57,6 +57,7 @@ export default function Home() {
 
         <div className={styles.background1}></div>
         <div className={styles.btmbar}>
+          <div className={styles.btmbar2}>
           <div className={styles.barLeft}>
             <Image
               src="/Menu_POT.svg"
@@ -69,11 +70,13 @@ export default function Home() {
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 
-            <div className={styles.LMD}>
-              <p>LEARN MORE</p> <p>DONATE</p>
-            </div>
+            
           </p>
-
+          </div>
+          <div className={styles.LMD}>
+              <p style={{'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor':'pointer' }}>LEARN MORE</p>
+              <p style={{'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '1rem' , 'cursor':'pointer' }}>DONATE</p>
+            </div>
         </div>
 
         
