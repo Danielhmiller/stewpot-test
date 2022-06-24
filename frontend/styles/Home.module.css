@@ -103,10 +103,18 @@
     flex-direction: column;
 }
 
-.CAL {
-flex-direction:row;
-align-items: right;
+.DONATE {
+    flex-direction: column;
 }
+
+.ppl {
+    flex-direction: column;
+}
+
+.tax {
+    flex-direction: column;
+}
+
 
     
 
