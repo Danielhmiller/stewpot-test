@@ -58,59 +58,72 @@ export default function Home() {
         <div className={styles.background1}></div>
         <div className={styles.btmbar}>
           <div className={styles.btmbar2}>
-          <div className={styles.barLeft}>
-            <Image
-              src="/Menu_POT.svg"
-              width={200}
-              height={150}
-              alt="Image Not Supported" />
-            <h3 className={styles.Mission} style={{ "font-family": "'Lato', sans-serif;", 'font-size': '2.5rem', 'margin-left': '-2.8rem', 'line-height': '0rem' }}>MISSION</h3>
-          </div>
-          <p style={{ 'width': '75%', 'padding-right': '4rem', "font-family": "'Europa', sans-serif" }}>
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
+            <div className={styles.barLeft}>
+              <Image
+                src="/Menu_POT.svg"
+                width={200}
+                height={150}
+                alt="Image Not Supported" />
+              <h3 className={styles.Mission} style={{ "font-family": "'Lato', sans-serif;", 'font-size': '2.5rem', 'margin-left': '-2.8rem', 'line-height': '0rem' }}>MISSION</h3>
+            </div>
+            <p style={{ 'width': '75%', 'padding-right': '4rem', "font-family": "'Europa', sans-serif" }}>
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
+              Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo
 
-            
-          </p>
+
+            </p>
           </div>
           <div className={styles.LMD}>
-              <p style={{'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor':'pointer' }}>LEARN MORE</p>
-              <p style={{'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '1rem' , 'cursor':'pointer' }}>DONATE</p>
-            </div>
+            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer' }}>LEARN MORE</p>
+            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '1rem', 'cursor': 'pointer' }}>DONATE</p>
+          </div>
         </div>
 
-        
-        <div className={styles.FS} style={{'padding-top': '3rem'}}>
+
+        <div className={styles.FS} style={{ 'padding-top': '3rem' }}>
           <div>
-            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem', 'margin-right': '84rem' ,'font-size': '2rem', 'padding-right':'5rem', 'background-color':'#6ABF4B'}} >FEATURED</h3>
-            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem', 'font-size': '1rem', 'margin-right': '84rem','background-color':'#6ABF4B'}}>SERVICES</h4>
+            <h3 style={{ "margin-bottom": "4rem", 'margin-left': '13rem', 'margin-right': '84rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
+            <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '13rem', 'font-size': '1rem', 'margin-right': '84rem', 'background-color': '#6ABF4B' }}>SERVICES</h4>
+          </div>
+          <div style={{ 'margin-left': '98rem' }}>
+            <Image
+              src="/Kids.svg"
+              width={150}
+              height={125}
+              alt="Image Not Supported" />
+          </div>
         </div>
-        <div style={{'margin-left': '98rem'}}>
-          <Image
-            src="/Kids.svg"
-            width={150}
-            height={125}
-            alt="Image Not Supported" />
+        <div className={styles.AFP} style={{ 'margin-left': '50rem' }}>
+          <h4 style={{ "margin-top": "-15.5rem" }}>AFTER SCHOOL PROGRAM</h4>
+          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+          <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '61rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
         </div>
-    </div>
-    <div className={styles.AFP} style={{'margin-left': '50rem'}}>
-    <h4 style={{"margin-top": "-15.5rem"}}>AFTER SCHOOL PROGRAM</h4>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-    <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'61rem' , 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p>
-    </div>
-    <div>
-      <div className={styles.FE} style={{'background-color': '#e7ebf1','padding-top': '3rem','padding-bottom': '3rem'}}>
-            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem', 'margin-right': '84rem' ,'font-size': '2rem', 'padding-right':'5rem', 'background-color':'#6ABF4B'}} >FEATURED</h3>
-            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem', 'font-size': '1rem', 'margin-right': '84rem','background-color':'#6ABF4B'}}>EVENTS</h4>
-            <p style={{'color':'black', 'margin-bottom': '-1rem','margin-left':'13rem'}}><strong>RED BEANS AND RICE</strong></p>
-            <p style={{'color':'black','margin-left':'13rem'}}>One of Jackson's most anticipated family-fun festivals.</p>
-            <p style={{'color':'black', 'margin-bottom': '-1rem','margin-left':'13rem'}}><strong>TASTE OF MISSISSIPPI</strong></p>
-            <p style={{'color':'black','margin-left':'13rem'}}>Stewpot's largest annual fundraiser.</p>
+        <div>
+          <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'padding-bottom': '3rem' }}>
+            <h3 style={{ "margin-bottom": "4rem", 'margin-left': '10rem', 'margin-right': '75rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
+            <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '10rem', 'font-size': '1rem', 'margin-right': '75rem', 'background-color': '#6ABF4B' }}>EVENTS</h4>
+            <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>RED BEANS & RICE</strong></p>
+            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>One of Jackson's most anticipated family-fun festivals.</p>
+            <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>TASTE OF MISSISSIPPI</strong></p>
+            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot's largest annual fundraiser.</p>
+            
             <div>
-            <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'98rem' ,'margin-left':'13rem', 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p> 
+              <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '98rem', 'margin-left': '13rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
             </div>
-        </div>
+            <div className={styles.CAL} style={{'margin-left':'70rem', 'margin-top':'4rem'}}>
+              <Image
+                src='/calendar.svg'
+                width={200}
+                height={200}
+                alt="Image Not Supported" />
+                <p>AUGUST</p>
+                <p>28</p>
+            </div>
+          </div>
+          <div>
+
+          </div>
         </div>
       </main>
     </div >
