@@ -104,9 +104,9 @@ export default function Home() {
             <h3 style={{ "margin-bottom": "4rem", 'margin-left': '10rem', 'margin-right': '75rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
             <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '10rem', 'font-size': '1rem', 'margin-right': '75rem', 'background-color': '#6ABF4B' }}>EVENTS</h4>
             <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>RED BEANS & RICE</strong></p>
-            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>One of Jackson's most anticipated family-fun festivals.</p>
+            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>One of Jackson{"\'"}s most anticipated family-fun festivals.</p>
             <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>TASTE OF MISSISSIPPI</strong></p>
-            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot's largest annual fundraiser.</p>
+            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot{"\'"}s largest annual fundraiser.</p>
 
             <div>
               <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '98rem', 'margin-left': '13rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
@@ -123,7 +123,7 @@ export default function Home() {
               <div><p style={{ 'color': 'black', 'margin-left': '15rem', 'padding-top': '1rem', 'margin-top': '-15rem' }}><strong>STEWPOT COMMUNITY</strong></p>
                 <p style={{ 'color': 'black', 'margin-left': '15rem', 'margin-top': '2rem', 'margin-bottom': '30rem' }}><strong>SERVICES FOOD DRIVE</strong></p></div>
               <p style={{ 'color': 'black', 'margin-left': '15rem', 'margin-top': '-28rem' }}><strong>TIME: 11:30-3:00 PM</strong></p>
-              <p style={{ 'color': 'black', 'margin-left': '15rem', 'margin-top': '2rem', 'margin-bottom': '30rem' }}><strong>LOCATION: Millsap's Campus</strong></p>
+              <p style={{ 'color': 'black', 'margin-left': '15rem', 'margin-top': '2rem', 'margin-bottom': '30rem' }}><strong>LOCATION: Millsap{"\'"}s Campus</strong></p>
               <p style={{ 'color': 'black', 'margin-left': '15rem', 'padding-top': '1rem', 'margin-top': '-28rem' }}>Lorem ipsum dolor sit amet.
                 Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos dolores
                 eos porro soluta aut facere repellat. Vel recusandae animi non quas aliquam sit
