@@ -78,15 +78,16 @@
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
+    align-items: left;
     background-color: #acd4dd;
+    color: white;
 }
-.LM2 {
+.AFP {
     display: flex;
     flex-direction:column;
     justify-content: center;
-    align-items: center;
-    color:#6abf4b
+    color:#000;
+    background-color: #acd4dd;
 }
 .btmbar2 {
     display:flex;
