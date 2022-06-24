@@ -97,7 +97,7 @@ export default function Home() {
           <h4 style={{ "margin-top": "-15.5rem" }}>AFTER SCHOOL PROGRAM</h4>
           <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
             Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-          <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '61rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
+            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer', 'width':'8rem', 'color':'#6abf4b' }}>LEARN MORE</p>
         </div>
         <div>
           <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'padding-bottom': '3rem' }}>
@@ -109,7 +109,7 @@ export default function Home() {
             <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot{"\'"}s largest annual fundraiser.</p>
 
             <div>
-              <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '98rem', 'margin-left': '13rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
+            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '12rem', 'cursor': 'pointer', 'width':'8rem', 'color':'#6abf4b'}}>LEARN MORE</p>
             </div>
             <div className={styles.CAL} style={{ 'margin-left': '70rem', 'margin-top': '-15rem' }}>
               <Image
@@ -164,11 +164,11 @@ export default function Home() {
                   optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
                   Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
                 </p>
-                <p style={{ 'background-color': '#6abf4b', 'color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '64rem', 'margin-left': '18rem', 'padding-left': '1rem' }}>LEARN MORE</p>
+                <p style={{ 'background-color': "#6abf4b", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer', 'color':'white', 'width':'8rem' }}>LEARN MORE</p>
               </div>
             </div>
           </div>
-        </div>
+        </div>.
         <div style={{ 'background-color': '#e7ebf1', 'margin-top': '4rem' }}>
           <div>
             <Image
