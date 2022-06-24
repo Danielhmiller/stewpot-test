@@ -80,22 +80,25 @@ export default function Home() {
         </div>
 
         
-        <div className={styles.FS}>
-        <h3>Featured</h3>
-        <h4>Services</h4>
-          <h4 style={{ 'padding-top': '2rem' }}>AFTER SCHOOL PROGRAM</h4>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            <p className={styles.LM2}>LEARN MORE</p>
-          </p>
+        <div className={styles.FS} style={{'padding-top': '3rem'}}>
           <div>
+            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem'}} >Featured</h3>
+            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem'}}>Services</h4>
+        </div>
+        <div style={{'margin-left': '98rem'}}>
           <Image
             src="/Kids.svg"
-            width={200}
-            height={150}
+            width={150}
+            height={125}
             alt="Image Not Supported" />
         </div>
     </div>
-      </main >
+    <div className={styles.AFP} style={{'margin-left': '50rem'}}>
+    <h4 style={{"margin-top": "-15.5rem"}}>AFTER SCHOOL PROGRAM</h4>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
+    <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'60rem' , 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p>
+    </div>
+      </main>
     </div >
   )
 
