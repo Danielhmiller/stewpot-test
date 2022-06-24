@@ -111,21 +111,137 @@ export default function Home() {
             <div>
               <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '98rem', 'margin-left': '13rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>LEARN MORE</p>
             </div>
-            <div className={styles.CAL} style={{'margin-left':'70rem', 'margin-top':'4rem'}}>
+            <div className={styles.CAL} style={{'margin-left':'70rem', 'margin-top':'-15rem'}}>
               <Image
                 src='/calendar.svg'
                 width={200}
                 height={200}
                 alt="Image Not Supported" />
-                <p>AUGUST</p>
-                <p>28</p>
+               <div> <p style={{'margin-left':'3.3rem', 'font-size':'1.5rem', 'margin-top':'-10rem', 'opacity':'0.9'}}><strong>AUGUST</strong></p>
+                <p style={{'color':'#6abf4b', 'font-size':'5rem', 'opacity':'0.9','margin-left':'3.5rem','margin-top':'-2rem'}}><strong>28</strong></p>
+                </div>
+                <div><p style={{'color':'black','margin-left':'15rem','padding-top':'1rem', 'margin-top':'-15rem'}}><strong>STEWPOT COMMUNITY</strong></p>
+                <p style={{'color':'black', 'margin-left':'15rem','margin-top':'2rem','margin-bottom':'30rem'}}><strong>SERVICES FOOD DRIVE</strong></p></div>
+                <p style={{'color':'black', 'margin-left':'15rem','margin-top':'-28rem'}}><strong>TIME: 11:30-3:00 PM</strong></p>
+                <p style={{'color':'black', 'margin-left':'15rem','margin-top':'2rem','margin-bottom':'30rem'}}><strong>LOCATION: Millsap's Campus</strong></p> 
+                <p style={{'color':'black','margin-left':'15rem','padding-top':'1rem', 'margin-top':'-28rem'}}>Lorem ipsum dolor sit amet. 
+                  Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos dolores
+                   eos porro soluta aut facere repellat. Vel recusandae animi non quas aliquam sit 
+                   optio rerum non voluptates voluptas est deleniti tenetur et odit minima. 
+                   Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.</p>
+                   <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer','margin-left':'15rem', 'margin-right': '24rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>FULL CALENDAR</p>
             </div>
-          </div>
-          <div>
+            <div style={{'margin-left': '55rem', 'margin-top':'-9rem'}}>
+          <Image
+                src='/Hands_Bird.svg'
+                width={210}
+                height={210}
+                alt="Image Not Supported" />
 
           </div>
+          </div>
+          
+          <div>
+            <div style={{'margin-top':'4rem','margin-left':'4rem'}}>
+          <Image
+                src='/News.svg'
+                width={175}
+                height={175}
+                alt="Image Not Supported" />
+                <div style={{'margin-top':'-4rem'}}>
+                <p style={{'color':'#6abf4b', 'font-size':'2rem', 'margin-bottom':'-1rem','margin-left':'2rem'}}><strong>NEWS</strong></p>
+                <p style={{'color':'#6abf4b', 'margin-top':'0.3rem','margin-left':'2rem','font-size':'1.5rem'}}>BLOG</p>
+                </div>
+                <div style={{'margin-left':'25rem', 'margin-top':'-14rem'}}>
+                <p><strong>SUPPORT MINISTRIES</strong></p>
+                <p><strong>KROGER COMMUNITY REWARDS</strong></p>
+                <p>Lorem ipsum dolor sit amet. Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos
+                   dolores eos porro soluta aut facere repellat.
+                   Vel recusandae animi non quas aliquam sit 
+                   optio rerum non voluptates voluptas est deleniti tenetur et odit minima. 
+                   Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
+                   Vel recusandae animi non quas aliquam sit 
+                   optio rerum non voluptates voluptas est deleniti tenetur et odit minima. 
+                   Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
+                   </p>
+                   <p style={{ 'background-color': '#6abf4b', 'color':'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-right': '64rem', 'margin-left': '18rem', 'padding-left': '1rem' }}>LEARN MORE</p>
+                </div>
+                </div>            
+           </div>
         </div>
-      </main>
+        <div style={{'background-color':'#e7ebf1', 'margin-top':'4rem'}}>
+          <div>
+        <Image
+                src='/newsletter.svg'
+                width={75}
+                height={75}
+                alt="Image Not Supported" />
+         </div>
+         <p style={{'margin-left':'5rem', 'margin-top':'-3rem', 'padding-bottom':'10rem'}}><strong>GET OUR NEWSLETTER</strong></p>
+         <form style={{'margin-top':'-10rem', 'padding-bottom':'3rem'}}>
+         <div>
+         <input type='text' id='EMAIL ADDRESS' name='EMAIL ADDRESS' value='email address'></input>
+         </div>
+         <div>
+         <input type='submit' id='email address' name='SUBMIT' value='SUBMIT'></input>
+         </div>
+         </form>
+         <div style={{'margin-left':'48rem', 'margin-top':'-8.5rem', 'font-size':'0.9rem', 'padding-bottom':'2rem'}}>
+         <p>Mail: P.O. Box 3610, Jackson, MS 39207</p>
+         <p>1100 W. Capitol St., Jackson, MS, 39203</p>
+         <p>T 601.353.2759 * F 601.353.7071</p>
+         <p>Stewpot@stewpot.org</p>
+         </div>
+         <div>
+          <div style={{'margin-left':'46rem' , 'margin-top':'-10.2rem', 'padding-bottom':'0.3rem'}}>
+         <Image
+                src='/enmail_ICON.svg'
+                width={25}
+                height={25}
+                alt="Image Not Supported" />
+                </div>
+            <div style={{'margin-left':'46rem'}}>
+                 <Image
+                src='/Location_ICON.svg'
+                width={25}
+                height={25}
+                alt="Image Not Supported" />
+            </div>
+                <div style={{'margin-left':'46rem'}}>
+                 <Image
+                src='/phone_ICON.svg'
+                width={25}
+                height={25}
+                alt="Image Not Supported" />
+                </div>
+                
+                <div style={{'margin-left':'46rem'}}>
+                  <Image
+                src='/talk_ICON.svg'
+                width={25}
+                height={25}
+                alt="Image Not Supported" />
+                </div>
+                </div>
+         <div style={{'margin-left':'85rem', 'margin-top':'-9rem', 'font-size':'0.9rem', 'padding-bottom':'9rem'}}>
+          <p><strong>FOLLOW US</strong></p>
+          <p>SOCIAL MEDIA</p>
+         </div>
+         <div style={{'margin-left':'81rem', 'margin-top':'-13rem', 'padding-bottom':'9rem'}}>
+          <Image
+                src='/social_media_ICON.svg'
+                width={60}
+                height={60}
+                alt="Image Not Supported" />
+          </div>
+          <div>
+          <p>icon placeholder</p>
+          </div>
+        </div>
+        <div>
+          
+        </div>
+        </main>
     </div >
   )
 
