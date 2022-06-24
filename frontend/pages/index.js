@@ -82,8 +82,8 @@ export default function Home() {
         
         <div className={styles.FS} style={{'padding-top': '3rem'}}>
           <div>
-            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem'}} >Featured</h3>
-            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem'}}>Services</h4>
+            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem', 'margin-right': '84rem' ,'font-size': '2rem', 'padding-right':'5rem', 'background-color':'#6ABF4B'}} >FEATURED</h3>
+            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem', 'font-size': '1rem', 'margin-right': '84rem','background-color':'#6ABF4B'}}>SERVICES</h4>
         </div>
         <div style={{'margin-left': '98rem'}}>
           <Image
@@ -95,9 +95,23 @@ export default function Home() {
     </div>
     <div className={styles.AFP} style={{'margin-left': '50rem'}}>
     <h4 style={{"margin-top": "-15.5rem"}}>AFTER SCHOOL PROGRAM</h4>
-    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam</p>
-    <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'60rem' , 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p>
+    <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
+    Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+    <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'61rem' , 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p>
     </div>
+    <div>
+      <div className={styles.FE} style={{'background-color': '#e7ebf1','padding-top': '3rem','padding-bottom': '3rem'}}>
+            <h3 style={{"margin-bottom": "4rem", 'margin-left':'13rem', 'margin-right': '84rem' ,'font-size': '2rem', 'padding-right':'5rem', 'background-color':'#6ABF4B'}} >FEATURED</h3>
+            <h4 style={{"margin-top": "-4.5rem", 'margin-left':'13rem', 'font-size': '1rem', 'margin-right': '84rem','background-color':'#6ABF4B'}}>EVENTS</h4>
+            <p style={{'color':'black', 'margin-bottom': '-1rem','margin-left':'13rem'}}><strong>RED BEANS AND RICE</strong></p>
+            <p style={{'color':'black','margin-left':'13rem'}}>One of Jackson's most anticipated family-fun festivals.</p>
+            <p style={{'color':'black', 'margin-bottom': '-1rem','margin-left':'13rem'}}><strong>TASTE OF MISSISSIPPI</strong></p>
+            <p style={{'color':'black','margin-left':'13rem'}}>Stewpot's largest annual fundraiser.</p>
+            <div>
+            <p style={{'background-color': 'white', 'border-radius': '25px', 'cursor':'pointer', 'margin-right':'98rem' ,'margin-left':'13rem', 'color':'#6abf4b', 'padding-left':'1rem' }}>LEARN MORE</p> 
+            </div>
+        </div>
+        </div>
       </main>
     </div >
   )

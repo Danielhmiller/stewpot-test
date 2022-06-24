@@ -93,7 +93,10 @@
     display:flex;
     flex-direction:row;
 }
-
+.FE {
+    color:white;
+    flex-direction: column;
+}
 
 
     
