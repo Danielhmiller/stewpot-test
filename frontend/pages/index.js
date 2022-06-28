@@ -55,7 +55,17 @@ export default function Home() {
           </div>
         </div>
 
-        <div className={styles.background1}></div>
+        <div className={styles.background1}>
+          <div>
+          <Image
+                src="/Heart_Logo.svg"
+                width={50}
+                height={50}
+                alt="Image Not Supported"
+                style={{'color': 'white', 'margin-left':'25rem'}}
+              />
+          </div>
+        </div>
         <div className={styles.btmbar}>
           <div className={styles.btmbar2}>
             <div className={styles.barLeft}>
@@ -238,7 +248,7 @@ export default function Home() {
             <p></p>
           </div>
         </div>
-        <div style={{ 'background-color': '#6abf4b', 'margin-top': '-2rem', 'opacity': '0.9' }}>
+        <div style={{ 'background-color': '#6abf4b', 'margin-top': '-2rem', 'opacity': '0.9', 'padding-top':'0.1rem' }}>
           <div className={styles.DONATE} style={{'margin-left': '2rem', 'margin-top':'3rem', 'padding-bottom':'8rem'}} >
               <Image
                 src="/Donate.svg"

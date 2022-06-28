@@ -44,6 +44,7 @@
     height: 60vh;
     background-size: cover;
     background-position: right 100% top 20%;
+    opacity: '';
 }
 
 .btmbar {
