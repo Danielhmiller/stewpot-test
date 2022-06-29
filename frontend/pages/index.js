@@ -16,96 +16,6 @@ export default function Home() {
 
       <main className={styles.main}>
 
-        <div className={styles.topBar}>
-
-          <div className={styles.topBarLeft}>
-
-            <div className={styles.topBtn}>
-              <Image
-                src="/Donate.svg"
-                width={50}
-                height={50}
-                alt="Image Not Supported"
-              />
-              <h3 style={{ 'font-size': '1.5rem' }}>DONATE</h3>
-            </div>
-          </div>
-
-          <div className={styles.topBarRight}>
-
-            <div className={styles.topBtn}>
-              <h3 style={{ 'font-size': '1rem' }}>I NEED HELP</h3>
-              <Image
-                src="/I_need_help.svg"
-                width={50}
-                height={50}
-                alt="Image Not Supported"
-              />
-            </div>
-
-            <div className={styles.topBtn} style={{ 'margin-left': '2rem' }}>
-              <h3 style={{ 'font-size': '1rem' }}>I WANT TO HELP</h3>
-              <Image
-                src="/I_want_to_help.svg"
-                width={50}
-                height={50}
-                alt="Image Not Supported"
-              />
-            </div>
-          </div>
-        </div>
-
-        <div className={styles.navBar}>
-          <div className={styles.navPotSVG}>
-            <svg version="1.1" id="Layer_1" x="0px" y="0px"
-              viewBox="0 0 194 147" enableBackground="new 0 0 194 147" fill="#6abf4b">
-              <g>
-                <path d="M11.6,64.2C10.5,127.5,26.5,137,26.5,137v4.2c0,0.7,0.6,1.3,1.4,1.3h98.5c0.8,0,1.4-0.6,1.4-1.3V137
-                  c0,0,16.1-9.4,14.9-72.8H11.6z"/>
-                <path d="M91.1,20C87.1,10.4,76,5.3,65.3,8.4L63,9.1c-10.7,3.1-17,13.5-14.8,23.6c-20.6,10.4-34.4,24-37.7,27.4l127.6-37.6
-                  C133.4,21.4,114.2,17.6,91.1,20z M69,24.3c-4.9,1.5-9.6,3.2-14,5.2c-0.6-6.3,3.4-12.5,9.9-14.4l2.3-0.7c6.5-1.9,13.3,1,16.4,6.6
-                  C78.8,21.8,73.9,22.9,69,24.3z"/>
-                <path d="M114.7,45c-1.5,1.3-2.4,3-2.6,5c0,0,0,0.1,0,0.1c-0.2,2.8,1,5.6,3.2,7.2c2,1.5,4.8,2,8.4,1.4c2.8-0.5,5.7-1.3,8.4-2.1
-                  c1.1-0.3,2.2-0.6,3.2-0.9c0.5-0.1,0.9-0.5,0.9-1c0-0.1,0-0.1,0-0.2l-1.7-9.8c0-0.2-0.1-0.4-0.1-0.7c-0.4-2.6-0.9-5.4-2.2-7.6
-                  c-1.4-2.5-3.6-3.9-6-3.9c-2.5,0-4.9,1.4-6,3.5c-0.4,0.8-0.6,1.6-0.7,2.5c-0.1,1.3,0.1,2.6,0.7,3.7l0.3,0.6l-0.7,0
-                  C117.9,43,116.1,43.7,114.7,45z M123.3,45.7c0.4,0.2,0.7,0.1,0.9,0c0.4-0.2,0.7-0.6,0.7-1c0-0.3-0.1-0.5-0.4-0.7
-                  c-0.5-0.3-3-3.4-2.8-6.1c0.1-0.9,0.5-1.8,1.2-2.4c0.9-0.8,1.9-1.2,3.1-1.1c1.4,0.1,2.7,0.8,3.7,1.9c1.8,2.1,2.3,5.1,2.7,7.6
-                  c0,0.2,0.1,0.4,0.1,0.6l1.6,9.4l-1.7,0.5c-2,0.6-4.2,1.1-6.2,1.6c-2.4,0.6-5,1.1-7.3,0.5c-2.3-0.6-4-2.3-4.6-4.6
-                  c-0.2-0.7-0.2-1.4-0.2-2.1c0.1-1.6,0.9-2.9,2.1-3.9C118.2,44.5,121.1,44.3,123.3,45.7z"/>
-                <path d="M188.7,21c-0.6-1.9-1.8-3.5-3.5-4.7c-1.4-1-3.1-1.7-5-2c-0.4-0.1-0.9-0.1-1.3-0.2c-3.5-0.2-6.9,1-9.5,2.1l-1.5,0.6
-                  l-0.6-1.5c-0.8-2-2.1-3.7-3.9-4.9c-1.6-1.1-3.4-1.8-5.3-1.9c-1.5-0.1-3,0.1-4.4,0.7c-2.8,1.2-4.9,3.4-6,6.4
-                  c-1.6,4-1.3,9.1,0.6,13.3c2.2,4.9,6,8.8,9.4,12.3l0.2,0.2l0.1,0c0.2,0.1,0.4,0.2,0.7,0.2c0.4,0,0.9-0.2,1.2-0.5
-                  c0,0,0.1-0.1,0.1-0.2l0.3-0.6l0.6-0.1c0.2,0,0.3-0.1,0.5-0.2c3.2-2.2,6.9-2.9,10.9-3.6c4.9-0.9,10-1.9,13.6-5.8
-                  C188.5,27.8,189.6,24.1,188.7,21z M185.1,27.4c-2.6,4.1-7.5,5.4-12,6.3l-1.2,0.2c-4.1,0.8-8.4,1.6-12,4.1l-1.1,0.7l-0.9-1
-                  c-6-6.4-11-13.3-7.7-21.2c1.1-2.7,3.8-5.7,7.7-5.4c0.3,0,0.6,0.1,0.8,0.1c1.1,0.2,2.2,0.7,3.1,1.3c2.2,1.5,3.5,3.8,3.5,6.2
-                  c0,0.5,0.2,0.9,0.6,1.1c0.2,0.1,0.4,0.2,0.6,0.2c0.2,0,0.5,0,0.8-0.2c3.5-1.6,7.5-3.5,11.4-3.2c0.8,0.1,1.7,0.2,2.4,0.5
-                  c0.8,0.3,1.6,0.6,2.2,1.1C186.5,20.4,187.2,24.2,185.1,27.4z"/>
-              </g>
-            </svg>
-          </div>
-        </div>
-
-        <div className={styles.downArrowBox}>
-          <div className={styles.arrowSVG}>
-            <svg version="1.1" id="Isolation_Mode" x="0px"
-              y="0px" viewBox="0 0 265 187" enableBackground="new 0 0 265 187" fill='#fff'>
-              <path d="M245.6,29.7c-15.3-15.3-40-15.3-55.3,0l-54.5,54.5L81.3,29.7c-15.3-15.3-40-15.3-55.3,0c-15.3,15.3-15.3,40,0,55.3
-                l81.7,81.7c7.7,7.7,17.9,11.5,28,11.4c10.1,0.1,20.3-3.7,28-11.4L245.6,85C260.8,69.7,260.8,44.9,245.6,29.7z"/>
-            </svg>
-          </div>
-        </div>
-        
-        <div className={styles.dropDown}>
-          <p>HOME</p>
-          <p>SERVICES</p>
-          <p>EVENTS</p>
-          <p>VOLUNTEER</p>
-          <p>SUPPORT MINISTRIES</p> 
-          <p>ABOUT</p> 
-          <p>RESOURCES</p> 
-          <p>CONTACT</p> 
-        </div>
-
         <div className={styles.background1}>
           <div style={{'position': 'relative', 'width': '100%', 'display': 'flex', 'justify-content': 'flex-end', 'overflow': 'hidden'}}>
             <div style={{'margin-right': '-10rem', 'margin-top': '-4rem'}}>
@@ -250,7 +160,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>.
+        </div>
         <div style={{ 'background-color': '#e7ebf1', 'margin-top': '4rem' }}>
           <div>
             <Image
@@ -262,10 +172,10 @@ export default function Home() {
           <p style={{ 'margin-left': '5rem', 'margin-top': '-3rem', 'padding-bottom': '10rem' }}><strong>GET OUR NEWSLETTER</strong></p>
           <form style={{ 'margin-top': '-10rem', 'padding-bottom': '3rem' }}>
             <div>
-              <input type='text' id='EMAIL ADDRESS' name='EMAIL ADDRESS'></input>
+              <input type='text' id='EMAIL ADDRESS' name='EMAIL ADDRESS' placeholder='Email Address' style={{'border': 'none', 'margin': '1rem', 'padding': '0.5rem'}}></input>
             </div>
             <div>
-              <button type='submit' id='email address' name='SUBMIT'>Submit</button>
+              <button type='submit' id='email address' name='SUBMIT' style={{'border': 'none', 'background': 'none', 'cursor': 'pointer', 'margin': '1rem', 'font-weight': 'bold', 'line-height': '0'}}>SUBMIT</button>
             </div>
           </form>
           <div style={{ 'margin-left': '48rem', 'margin-top': '-8.5rem', 'font-size': '0.9rem', 'padding-bottom': '2rem' }}>
@@ -320,57 +230,8 @@ export default function Home() {
             <p></p>
           </div>
         </div>
-        <div style={{ 'background-color': '#6abf4b', 'margin-top': '-2rem', 'opacity': '0.9', 'padding-top':'0.1rem' }}>
-          <div className={styles.DONATE} style={{'margin-left': '2rem', 'margin-top':'3rem', 'padding-bottom':'8rem'}} >
-              <div style={{'width': '4rem'}}>
-                <svg version="1.1" id="Layer_1" x="0px" y="0px"
-                    viewBox="0 0 193 133" enableBackground="new 0 0 193 133" fill="#fff">
-                  <g>
-                    <path d="M70.4,26.4c-4.7-1.5-9.6-2.4-14.8-2.4C29.3,24,8,45.3,8,71.6c0,24.4,18.4,44.6,42.1,47.3c-8.7-10.4-13.9-23.8-13.9-38.4
-                      C36.2,56.7,50.2,36.1,70.4,26.4z"/>
-                    <path d="M138.4,7.9c-12.8,0-24.4,5.1-33,13.3c28.8,4.4,50.9,29.3,50.9,59.3c0,7.1-1.3,14-3.6,20.3C172,94.8,186,76.8,186,55.5
-                      C186,29.2,164.7,7.9,138.4,7.9z"/>
-                    <path d="M96.3,32.9c-26.3,0-47.6,21.3-47.6,47.6c0,26.3,21.3,47.6,47.6,47.6c26.3,0,47.6-21.3,47.6-47.6
-                      C143.9,54.3,122.6,32.9,96.3,32.9z M115.7,99.9c-1.3,2.4-3,4.3-5.1,5.7c-2.1,1.4-5,2.4-8.9,3.2v7.1h-7.8v-6.8
-                      c-3.6-0.4-6.8-1.2-9.3-2.5c-3.5-1.7-6.8-4-9.8-6.9l7.9-7.3c5.1,4.8,10,7.3,14.8,7.3c2.4,0,4.5-0.8,6.2-2.3c1.7-1.5,2.6-3.3,2.6-5.3
-                      c0-1.7-0.6-3.2-1.7-4.5c-1.1-1.3-3.3-2.6-6.6-4C91.5,80.8,87,78.6,84.7,77c-2.3-1.6-4.1-3.4-5.2-5.4c-1.2-2-1.7-4.1-1.7-6.4
-                      c0-3.8,1.5-7,4.6-9.6c3.1-2.7,6.9-4.1,11.6-4.3v-5.9h7.8v6.4c2.7,0.6,5,1.3,6.9,2.3c1.9,1,4.1,2.6,6.7,4.9l-8.1,7
-                      c-3.7-3.4-7.3-5.1-10.9-5.1c-2.1,0-3.8,0.5-5.2,1.5c-1.3,1-2,2.2-2,3.5c0,1.1,0.6,2.2,1.8,3.3c1.1,1.1,3.5,2.3,6.9,3.6
-                      c6.2,2.3,10.4,4.2,12.7,5.9c2.3,1.6,4,3.6,5.3,5.8c1.2,2.3,1.8,4.8,1.8,7.6C117.7,94.9,117,97.5,115.7,99.9z"/>
-                  </g>
-                </svg>
-              </div>
-            <p style={{'color':'white'}}>DONOR PRIVACY POLICY</p>
-            <p style={{'color':'white', 'font-size':'0.5rem'}}> Stewpot is committed to protecting the privacy of our donors.<br></br>
-              Therefore, our organization will not sell, rent, or lease your personal information to other organizations.<br></br> We assure you that the identity of all our donors will be confidential.<br></br> Use of donor information will be limited to the internal purposes of Stewpot and only to further our ministry activities and purpose.<br></br></p>
-        </div>
-        <div className={styles.ppl} style={{'margin-left': '42rem', 'margin-top':'-16rem'}}>
-          <Image
-            src="/people.svg"
-            width={50}
-            height={50}
-            alt="Image Not Supported"
-          />
-          <p style={{'color':'white'}}>NON-DISCRIMINATION POLICY</p>
-          <p style={{'color':'white', 'font-size':'0.5rem'}}>Stewpot Community Services does not discriminate against any potential client or
-           employee on the basis of race,<br></br> color,national origin, age, disability, sex, gender identity, religion, political beliefs,<br></br> marital status, familial,
-           or parental status or sexual orientation. </p>
-        </div>
-        <div  className={styles.tax} style={{'margin-left': '82rem','padding-bottom':'4rem', 'margin-top':'-9rem'}}>
-          <Image
-            src="/tax_ICON.svg"
-            width={50}
-            height={50}
-            alt="Image Not Supported"
-          />
-          <p style={{'color':'white'}}>TAX DEDUCTIBLE CONTRIBUTIONS</p>
-          <p style={{'color':'white', 'font-size':'0.5rem'}}>
-            Contributions to Stewpot are tax-deductible for personal income tax purposes. <br></br>Stewpot Community Services, Inc. is a 501(c)(3) tax-exempt non-profit organization registered undee the laws of the state of Mississippi.
-          </p>
-        </div>
+      </main>
     </div>
-        </main >
-    </div >
   )
 
 }
