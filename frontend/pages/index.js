@@ -183,7 +183,7 @@ export default function Home() {
         </div>
 
         <div>
-          <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'padding-bottom': '3rem' }}>
+          <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'position': 'relative', 'padding-bottom': '3rem'}}>
             <h3 style={{ "margin-bottom": "4rem", 'margin-left': '10rem', 'margin-right': '75rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
             <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '10rem', 'font-size': '1rem', 'margin-right': '75rem', 'background-color': '#6ABF4B' }}>EVENTS</h4>
             <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>RED BEANS & RICE</strong></p>
@@ -214,13 +214,12 @@ export default function Home() {
                 Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.</p>
               <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-left': '15rem', 'margin-right': '24rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>FULL CALENDAR</p>
             </div>
-            <div style={{'position': 'absolute', 'bottom': '0'}}>
+            <div style={{'bottom': '0', 'width': '100%', 'display': 'flex', 'justify-content': 'center', 'position': 'absolute', 'margin-bottom': '-1.4rem'}}>
               <Image
                 src='/Hands_Bird.svg'
-                width={210}
-                height={210}
+                width={300}
+                height={300}
                 alt="Image Not Supported" />
-
             </div>
           </div>
 
