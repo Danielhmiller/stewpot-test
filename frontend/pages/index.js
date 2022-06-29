@@ -151,26 +151,37 @@ export default function Home() {
           </div>
         </div>
 
-
-        <div className={styles.FS} style={{ 'padding-top': '3rem' }}>
-          <div>
-            <h3 style={{ "margin-bottom": "4rem", 'margin-left': '13rem', 'margin-right': '84rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
-            <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '13rem', 'font-size': '1rem', 'margin-right': '84rem', 'background-color': '#6ABF4B' }}>SERVICES</h4>
+        <div style={{'display': 'flex', 'flex-direction': 'row', 'padding-bottom': '8rem', 'padding-top': '4rem', 'background-color': '#ccd4dd'}}>
+          <div style={{'width': '45%', 'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}}>
+            <div style={{'background-color': '#6abf4b', 'color': 'white', 'padding': '1rem', 'line-height': '0', 'border-radius': '15px', 'display': 'flex', 'flex-direction': 'row'}}>
+              <div style={{'width': '75%'}}>
+                <div style={{'line-height': '0'}}>
+                  <Image src={'/people.svg'} alt={'People SVG'} width={60} height={40} />
+                </div>
+                <p style={{'font-size': '2rem', 'margin-right': '8rem', 'line-height': '0'}}>FEATURED</p>
+                <p>SERVICES</p>
+              </div>
+              <div style={{'width': '25%', 'display': 'flex', 'justify-content': 'flex-end', 'align-items': 'flex-start'}}>
+                <div style={{'transform': 'rotate(-90deg)', 'margin-right': '-1.2rem'}}>
+                  <Image src={'/pointing_finger.svg'} alt={'Finger SVG'} width={50} height={50} />
+                </div>
+              </div>
+            </div>
           </div>
-          <div style={{ 'margin-left': '98rem' }}>
+          <div style={{'display': 'flex', 'flex-direction': 'column', 'width': '55%', 'z-index': '50', 'padding-right': '4rem'}}>
+            <p><strong>AFTER SCHOOL PROGRAM</strong></p>
+            <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
+            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'cursor': 'pointer', 'color': '#6abf4b', 'width': '8rem'}}>LEARN MORE</p>
+          </div>
+          <div style={{'position': 'absolute', 'right': '5%', 'margin-top': '8rem', 'line-height': '0'}}>
             <Image
               src="/Kids.svg"
-              width={150}
-              height={125}
+              width={250}
+              height={150}
               alt="Image Not Supported" />
           </div>
         </div>
-        <div className={styles.AFP} style={{ 'margin-left': '50rem' }}>
-          <h4 style={{ "margin-top": "-15.5rem" }}>AFTER SCHOOL PROGRAM</h4>
-          <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam
-            Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore.</p>
-            <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer', 'width':'8rem', 'color':'#6abf4b' }}>LEARN MORE</p>
-        </div>
+
         <div>
           <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'padding-bottom': '3rem' }}>
             <h3 style={{ "margin-bottom": "4rem", 'margin-left': '10rem', 'margin-right': '75rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
@@ -203,7 +214,7 @@ export default function Home() {
                 Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.</p>
               <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-left': '15rem', 'margin-right': '24rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>FULL CALENDAR</p>
             </div>
-            <div style={{ 'margin-left': '55rem', 'margin-top': '-9rem' }}>
+            <div style={{'position': 'absolute', 'bottom': '0'}}>
               <Image
                 src='/Hands_Bird.svg'
                 width={210}
