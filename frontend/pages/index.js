@@ -214,7 +214,7 @@ export default function Home() {
                 Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.</p>
               <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-left': '15rem', 'margin-right': '24rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>FULL CALENDAR</p>
             </div>
-            <div style={{ 'margin-left': '55rem', 'margin-top': '-9rem' }}>
+            <div style={{'position': 'absolute', 'bottom': '0'}}>
               <Image
                 src='/Hands_Bird.svg'
                 width={210}
