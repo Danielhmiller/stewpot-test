@@ -91,16 +91,33 @@ export default function Home() {
               alt="Image Not Supported" />
           </div>
         </div>
-
-        <div>
-          <div className={styles.FE} style={{ 'background-color': '#e7ebf1', 'padding-top': '3rem', 'position': 'relative', 'padding-bottom': '3rem'}}>
-            <h3 style={{ "margin-bottom": "4rem", 'margin-left': '10rem', 'margin-right': '75rem', 'font-size': '2rem', 'padding-right': '5rem', 'background-color': '#6ABF4B' }} >FEATURED</h3>
-            <h4 style={{ "margin-top": "-4.5rem", 'margin-left': '10rem', 'font-size': '1rem', 'margin-right': '75rem', 'background-color': '#6ABF4B' }}>EVENTS</h4>
+<div>
+<div style={{'display': 'flex', 'flex-direction': 'row', 'padding-bottom': '8rem', 'padding-top': '4rem', 'background-color': '#e7ebf1'}}>
+          <div style={{'width': '45%', 'display': 'flex', 'justify-content': 'center', 'align-items': 'center'}}>
+            <div style={{'background-color': '#6abf4b', 'color': 'white', 'padding': '1rem', 'line-height': '0', 'border-radius': '15px', 'display': 'flex', 'flex-direction': 'row'}}>
+              <div style={{'width': '75%'}}>
+                <div style={{'line-height': '0'}}>
+                  <Image src={'/people.svg'} alt={'People SVG'} width={60} height={40} />
+                </div>
+                <p style={{'font-size': '2rem', 'margin-right': '8rem', 'line-height': '0'}}>FEATURED</p>
+                <p>Events</p>
+              </div>
+              <div style={{'width': '25%', 'display': 'flex', 'justify-content': 'flex-end', 'align-items': 'flex-start'}}>
+                <div style={{'transform': 'rotate(-90deg)', 'margin-right': '-1.2rem'}}>
+                  <Image src={'/pointing_finger.svg'} alt={'Finger SVG'} width={50} height={50} />
+                </div>
+              </div>
+            </div>
+          </div>
+</div>
+<div>
             <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>RED BEANS & RICE</strong></p>
             <p style={{ 'color': 'black', 'margin-left': '13rem' }}>One of Jackson{"\'"}s most anticipated family-fun festivals.</p>
             <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>TASTE OF MISSISSIPPI</strong></p>
-            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot{"\'"}s largest annual fundraiser.</p>
-
+            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot{"\'"}s largest annual fundraiser.</p> 
+            </div>
+</div>
+           
             <div>
             <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '12rem', 'cursor': 'pointer', 'width':'8rem', 'color':'#6abf4b'}}>LEARN MORE</p>
             </div>
@@ -131,7 +148,7 @@ export default function Home() {
                 height={300}
                 alt="Image Not Supported" />
             </div>
-          </div>
+          
 
           <div>
             <div style={{ 'margin-top': '4rem', 'margin-left': '4rem' }}>
@@ -160,7 +177,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-        </div>
+        
         <div style={{ 'background-color': '#e7ebf1', 'margin-top': '4rem' }}>
           <div>
             <Image
