@@ -109,13 +109,14 @@ export default function Home() {
               </div>
             </div>
           </div>
-</div>
-<div>
-            <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>RED BEANS & RICE</strong></p>
-            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>One of Jackson{"\'"}s most anticipated family-fun festivals.</p>
-            <p style={{ 'color': 'black', 'margin-bottom': '-1rem', 'margin-left': '13rem' }}><strong>TASTE OF MISSISSIPPI</strong></p>
-            <p style={{ 'color': 'black', 'margin-left': '13rem' }}>Stewpot{"\'"}s largest annual fundraiser.</p> 
+          <div style= {{}}>
+            <p><strong>RED BEANS & RICE</strong></p>
+            <p>One of Jackson{"\'"}s most anticipated family-fun festivals.</p>
+            <p><strong>TASTE OF MISSISSIPPI</strong></p>
+            <p >Stewpot{"\'"}s largest annual fundraiser.</p> 
             </div>
+</div>
+            
 </div>
            
             <div>
