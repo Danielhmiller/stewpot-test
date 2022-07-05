@@ -91,9 +91,9 @@ export default function Home() {
               alt="Image Not Supported" />
           </div>
         </div>
-        <div>
-          <div style={{ 'display': 'flex', 'flex-direction': 'row', 'padding-bottom': '8rem', 'padding-top': '4rem', 'background-color': '#e7ebf1' }}>
-            <div style={{ 'display': 'flex', 'justify-content': 'center', 'align-items': 'center' }}>
+
+        <div style={{ 'display': 'flex', 'flex-direction': 'row', 'padding-bottom': '8rem', 'padding-top': '4rem', 'background-color': '#e7ebf1' }}>
+          <div style={{ 'display': 'flex', 'justify-content': 'center', 'align-items': 'center', 'flex-direction': 'column', 'width': '50%', 'z-index': '50'}}>
             <div style={{'background-color': '#6abf4b', 'color': 'white', 'padding': '1rem', 'line-height': '0', 'border-radius': '15px', 'display': 'flex', 'flex-direction': 'row'}}>
               <div style={{'width': '75%'}}>
                 <div style={{'line-height': '0'}}>
@@ -108,81 +108,85 @@ export default function Home() {
                 </div>
               </div>
             </div>
-            <div style= {{'display':'flex', 'flex-direction':'column'}}>
-            <p><strong>RED BEANS & RICE</strong></p>
-            <p>One of Jackson{"\'"}s most anticipated family-fun festivals.</p> 
-            </div>
-            <div style= {{'display':'flex','flex-direction':'column'}}>
-            <p><strong>TASTE OF MISSISSIPPI</strong></p>
-            <p >Stewpot{"\'"}s largest annual fundraiser.</p></div>
-            </div>
-            <div>
-              <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-left': '12rem', 'cursor': 'pointer', 'width': '8rem', 'color': '#6abf4b' }}>LEARN MORE</p>
-            </div>
-            <div className={styles.CAL} style={{ 'margin-left': '70rem', 'margin-top': '-15rem' }}>
-              <Image
-                src='/calendar.svg'
-                width={200}
-                height={200}
-                alt="Image Not Supported" />
-              <div> <p style={{ 'margin-left': '3.3rem', 'font-size': '1.5rem', 'margin-top': '-10rem', 'opacity': '0.9' }}><strong>AUGUST</strong></p>
-                <p style={{ 'color': '#6abf4b', 'font-size': '5rem', 'opacity': '0.9', 'margin-left': '3.5rem', 'margin-top': '-2rem' }}><strong>28</strong></p>
+            <div style={{'display': 'flex', 'flex-direction': 'column', 'justify-content': 'center', 'align-items': 'center', 'text-align': 'center'}}>
+              <div style= {{'display':'flex', 'flex-direction':'column'}}>
+                <p><strong>RED BEANS & RICE</strong></p>
+                <p>One of Jackson{"\'"}s most anticipated family-fun festivals.</p> 
               </div>
-              <div><p style={{ 'color': 'black', 'margin-left': '15rem' }}><strong>STEWPOT COMMUNITY</strong></p>
-                <p style={{ 'color': 'black', 'margin-left': '15rem' }}><strong>SERVICES FOOD DRIVE</strong></p></div>
-              <p style={{ 'color': 'black', 'margin-left': '15rem' }}><strong>TIME: 11:30-3:00 PM</strong></p>
-              <p style={{ 'color': 'black', 'margin-left': '15rem' }}><strong>LOCATION: Millsap{"\'"}s Campus</strong></p>
-              <p style={{ 'color': 'black', 'margin-left': '15rem' }}>Lorem ipsum dolor sit amet.
-                Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos dolores
-                eos porro soluta aut facere repellat. Vel recusandae animi non quas aliquam sit
-                optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
-                Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.</p>
-              <p style={{ 'background-color': 'white', 'border-radius': '25px', 'cursor': 'pointer', 'margin-left': '15rem', 'margin-right': '24rem', 'color': '#6abf4b', 'padding-left': '1rem' }}>FULL CALENDAR</p>
-            </div>
-            <div style={{ 'width': '100%', 'display': 'flex', 'justify-content': 'center', 'position': 'absolute' }}>
-              <Image
-                src='/Hands_Bird.svg'
-                width={300}
-                height={300}
-                alt="Image Not Supported" />
+              <div style= {{'display':'flex','flex-direction':'column'}}>
+                <p><strong>TASTE OF MISSISSIPPI</strong></p>
+                <p >Stewpot{"\'"}s largest annual fundraiser.</p>
+              </div>
+              <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'cursor': 'pointer', 'width': '8rem', 'color': '#6abf4b' }}>LEARN MORE</p>
             </div>
           </div>
 
-
-        </div>
-          
-
-           
-            
-          
-
-          <div>
-            <div style={{ 'margin-top': '4rem', 'margin-left': '4rem' }}>
-              <Image
-                src='/News.svg'
-                width={175}
-                height={175}
-                alt="Image Not Supported" />
-              <div style={{ 'margin-top': '-4rem' }}>
-                <p style={{ 'color': '#6abf4b', 'font-size': '2rem', 'margin-bottom': '-1rem', 'margin-left': '2rem' }}><strong>NEWS</strong></p>
-                <p style={{ 'color': '#6abf4b', 'margin-top': '0.3rem', 'margin-left': '2rem', 'font-size': '1.5rem' }}>BLOG</p>
+          <div className={styles.CAL} style={{ 'width': '50%' }}>
+            <div style={{'position': 'relative'}}>
+              <div>
+                <Image
+                  src='/calendar.svg'
+                  width={200}
+                  height={200}
+                  alt="Image Not Supported" />
               </div>
-              <div style={{ 'margin-left': '25rem', 'margin-top': '-14rem' }}>
-                <p><strong>SUPPORT MINISTRIES</strong></p>
-                <p><strong>KROGER COMMUNITY REWARDS</strong></p>
-                <p>Lorem ipsum dolor sit amet. Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos
-                  dolores eos porro soluta aut facere repellat.
-                  Vel recusandae animi non quas aliquam sit
-                  optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
-                  Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
-                  Vel recusandae animi non quas aliquam sit
+              <div style={{'position': 'absolute', 'margin-top': '-8rem', 'margin-left': '3rem', 'display': 'flex', 'flex-direction': 'column', 'justify-content': 'center', 'align-items': 'center'}}>
+                <p style={{ 'font-size': '1.5rem', 'line-height': '0' }}><strong>AUGUST</strong></p>
+                <p style={{ 'color': '#6abf4b', 'font-size': '4rem', 'opacity': '0.9', 'line-height': '0', 'margin-top': '1rem' }}><strong>28</strong></p>
+              </div>
+            </div>
+            <div style={{'width': '75%'}}>
+              <div>
+                <p style={{ 'color': 'black' }}><strong>STEWPOT COMMUNITY</strong></p>
+                <p style={{ 'color': 'black' }}><strong>SERVICES FOOD DRIVE</strong></p>
+              </div>
+                <p style={{ 'color': 'black' }}><strong>TIME: 11:30-3:00 PM</strong></p>
+                <p style={{ 'color': 'black' }}><strong>LOCATION: Millsap{"\'"}s Campus</strong></p>
+                <p style={{ 'color': 'black' }}>Lorem ipsum dolor sit amet.
+                  Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos dolores
+                  eos porro soluta aut facere repellat. Vel recusandae animi non quas aliquam sit
                   optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
                   Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
                 </p>
-                <p style={{ 'background-color': "#6abf4b", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer', 'color':'white', 'width':'8rem' }}>LEARN MORE</p>
-              </div>
+                <p style={{ 'background-color': "white", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'cursor': 'pointer', 'width': '10rem', 'color': '#6abf4b' }}>FULL CALENDAR</p>
             </div>
           </div>
+          <div style={{ 'width': '100%', 'display': 'flex', 'justify-content': 'center', 'align-items': 'flex-end', 'position': 'absolute', 'bottom': '-132.5%' }}>
+            <Image
+              src='/Hands_Bird.svg'
+              width={300}
+              height={300}
+              alt="Image Not Supported" />
+          </div>
+        </div>
+
+        <div>
+          <div style={{ 'margin-top': '4rem', 'margin-left': '4rem' }}>
+            <Image
+              src='/News.svg'
+              width={175}
+              height={175}
+              alt="Image Not Supported" />
+            <div style={{ 'margin-top': '-4rem' }}>
+              <p style={{ 'color': '#6abf4b', 'font-size': '2rem', 'margin-bottom': '-1rem', 'margin-left': '2rem' }}><strong>NEWS</strong></p>
+              <p style={{ 'color': '#6abf4b', 'margin-top': '0.3rem', 'margin-left': '2rem', 'font-size': '1.5rem' }}>BLOG</p>
+            </div>
+            <div style={{ 'margin-left': '25rem', 'margin-top': '-14rem' }}>
+              <p><strong>SUPPORT MINISTRIES</strong></p>
+              <p><strong>KROGER COMMUNITY REWARDS</strong></p>
+              <p>Lorem ipsum dolor sit amet. Aut deserunt earum est aspernatur magni sed unde dolorem in dignissimos
+                dolores eos porro soluta aut facere repellat.
+                Vel recusandae animi non quas aliquam sit
+                optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
+                Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
+                Vel recusandae animi non quas aliquam sit
+                optio rerum non voluptates voluptas est deleniti tenetur et odit minima.
+                Et molestiae voluptatem hic dicta quis non fugit animi sit sunt fugiat.
+              </p>
+              <p style={{ 'background-color': "#6abf4b", 'padding-left': '1rem', 'padding-right': '1rem', 'padding-top': '0.5rem', 'padding-bottom': '0.5rem', 'border-radius': '25px', 'margin-right': '1rem', 'cursor': 'pointer', 'color':'white', 'width':'8rem' }}>LEARN MORE</p>
+            </div>
+          </div>
+        </div>
         
         <div style={{ 'background-color': '#e7ebf1', 'margin-top': '4rem' }}>
           <div>

@@ -116,6 +116,12 @@
     flex-direction: column;
 }
 
+.CAL {
+    display: flex;
+    flex-direction: row;
+    z-index: 50;
+}
+
 .navBar {
     position: absolute;
     left: 42%;
@@ -141,7 +147,7 @@
     position: absolute;
     left: 48%;
     right: 48%;
-    top: 15.9%;
+    top: 9.4rem;
     background-color: #6abf4b;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
@@ -165,7 +171,7 @@
     background-color: rgba(46, 73, 122, 0.6);
     color: #fff;
     z-index: 95;
-    display: flex;
+    display: none;
     justify-content: center;
     align-items: center;
     text-align: center; 

@@ -2,8 +2,16 @@ import React from 'react'
 import styles from '../styles/Home.module.css'
 import Image from 'next/image'
 import Link from 'next/link'
+import { useState } from 'react'
 
 const Header = () => {
+
+  const [showNav, setShowNav] = useState(false);
+
+    function toggleNav() {
+        setShowNav(!showNav);
+    }
+
   return (
     <>
     <div className={styles.topBar}>
@@ -78,7 +86,7 @@ const Header = () => {
         </div>
 
         <div className={styles.downArrowBox}>
-          <div className={styles.arrowSVG}>
+          <div className={styles.arrowSVG} onClick={toggleNav}>
             <svg version="1.1" id="Isolation_Mode" x="0px"
               y="0px" viewBox="0 0 265 187" enableBackground="new 0 0 265 187" fill='#fff'>
               <path d="M245.6,29.7c-15.3-15.3-40-15.3-55.3,0l-54.5,54.5L81.3,29.7c-15.3-15.3-40-15.3-55.3,0c-15.3,15.3-15.3,40,0,55.3
@@ -87,7 +95,7 @@ const Header = () => {
           </div>
         </div>
         
-        <div className={styles.dropDown}>
+        <div className={styles.dropDown} style={{display: showNav ? 'flex':'none'}}>
           <Link href={'/'}><p>HOME</p></Link>
           <Link href={'/services'}><p>SERVICES</p></Link>
           <p>EVENTS</p>
