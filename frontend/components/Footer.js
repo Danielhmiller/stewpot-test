@@ -5,7 +5,7 @@ import Image from 'next/image'
 const Footer = () => {
   return (
     <>
-    <div style={{ 'background-color': '#6abf4b', 'margin-top': '-2rem', 'opacity': '0.9', 'padding-top':'0.1rem' }}>
+    <div style={{ 'background-color': '#6abf4b', 'margin-top': '-2rem', 'opacity': '0.9', 'padding-top':'0.1rem', 'overflow': 'hidden'}}>
           <div className={styles.DONATE} style={{'margin-left': '2rem', 'margin-top':'3rem', 'padding-bottom':'8rem'}} >
               <div style={{'width': '4rem'}}>
                 <svg version="1.1" id="Layer_1" x="0px" y="0px"
